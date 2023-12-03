@@ -18,4 +18,11 @@ vim setup-2.sh
 chmod +x setup-2.sh
 ./setup-2.sh
 ```
-
+- check on bitcoin.service
+```
+journalctl -u bitcoin.service -f
+```
+- query current blockheight
+```
+bitcoin-cli getblockcount
+```
