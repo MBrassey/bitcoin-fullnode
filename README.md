@@ -9,6 +9,9 @@ vim setup.sh
 [paste setup.sh]
 chmod +x setup.sh
 ./setup.sh
+```
+- run setup-2.sh as bitcoin user
+```
 su - bitcoin
 vim setup-2.sh
 [paste setup-2.sh]
