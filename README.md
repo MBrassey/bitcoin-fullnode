@@ -1,5 +1,5 @@
 # bitcoin-fullnode
-These Bitcoin Fullnode Automation scripts are intended to build from source and fully install the bitcoin core full-node implementation on ubuntu.
+These Bitcoin Fullnode Automation scripts are intended to build from source and fully install the Bitcoin Core full-node implementation on Ubuntu.
 
 ## Installation
 - run setup.sh as root user
