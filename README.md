@@ -20,7 +20,7 @@ chmod +x setup-2.sh
 ```
 - check on bitcoin.service
 ```
-journalctl -u bitcoind.service -f
+sudo journalctl -u bitcoind.service -f
 ```
 - query current blockheight
 ```
