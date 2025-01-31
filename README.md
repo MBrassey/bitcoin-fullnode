@@ -26,3 +26,7 @@ sudo journalctl -u bitcoind.service -f
 ```
 bitcoin-cli getblockcount
 ```
+- query blockchain status
+```
+bitcoin-cli getblockchaininfo
+```
