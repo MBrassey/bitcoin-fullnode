@@ -2,21 +2,21 @@
 These Bitcoin Fullnode Automation scripts are intended to build from source and fully install the Bitcoin Core full-node implementation on Ubuntu.
 
 ## Installation
-- run setup.sh as root user
+- run setup_1.sh as root user
 ```
 apt install vim -y
-vim setup.sh
-[paste setup.sh]
-chmod +x setup.sh
-./setup.sh
+vim setup_1.sh
+[paste setup_1.sh]
+chmod +x setup_1.sh
+./setup_1.sh
 ```
-- run setup-2.sh as bitcoin user
+- run setup_2.sh as bitcoin user
 ```
 su - bitcoin
-vim setup-2.sh
-[paste setup-2.sh]
-chmod +x setup-2.sh
-./setup-2.sh
+vim setup_2.sh
+[paste setup_2.sh]
+chmod +x setup_2.sh
+./setup_2.sh
 ```
 - check on bitcoind.service
 ```
