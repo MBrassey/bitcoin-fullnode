@@ -18,7 +18,7 @@ vim setup-2.sh
 chmod +x setup-2.sh
 ./setup-2.sh
 ```
-- check on bitcoin.service
+- check on bitcoind.service
 ```
 sudo journalctl -u bitcoind.service -f
 ```
